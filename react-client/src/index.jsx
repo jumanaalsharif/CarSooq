@@ -73,6 +73,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+
         <Switch>
           <Route exact path="/">
             {" "}
@@ -80,6 +81,8 @@ class App extends React.Component {
           </Route>
           <Route exact path="/login">
             <Login />
+          </Route>
+          <Route exact path="/addcar">
           </Route>
           <Route exact path="/profile">
             {" "}

@@ -6,9 +6,11 @@ var data = require('./data.json');
 var con = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "Lousan97*",
+    password: "00000000",
     database: "stock",
 });
+
+
 
 //connecting mysql and creating 2 tables in our stock; called cars & users
 con.connect(function(err) {

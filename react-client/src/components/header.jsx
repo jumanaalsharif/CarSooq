@@ -69,6 +69,11 @@ export default class Header extends React.Component {
                     <b>INVENTORY</b>
                   </MyButton>
                 </Link>
+                <Link to="/addcar" style={{ textDecoration: "none" }}>
+                  <MyButton color="inherit">
+                    <b>Add Car</b>
+                  </MyButton>
+                </Link>
                 <Link to="/about" style={{ textDecoration: "none" }}>
                   <MyButton color="inherit">
                     <b>ABOUT US</b>
